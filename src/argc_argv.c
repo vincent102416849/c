@@ -1,8 +1,12 @@
 #include <stdio.h>
 /*
 	escape characters for argv
+	Windows
 	escape space:"
 	escape ":\
+
+	Linux
+	escape space:\
 */
 int main(int argc, char **argv) {
 	printf("argc: %d\n", argc);
